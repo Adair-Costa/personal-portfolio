@@ -33,3 +33,16 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background-color: #115C39;
 }
+
+/* icon style */
+@media (max-width: 576px) {
+    .my-margin-style {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 568px) {
+    .my-margin-style {
+        margin-top: 1rem;
+    }
+}
