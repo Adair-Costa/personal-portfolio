@@ -35,6 +35,16 @@ body {
 }
 
 /* icon style */
+@media screen and (max-width: 768px) {
+    .visit-portfolio {
+        padding: 0.6rem;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .icons-social-media {
+        width: 50%;
+    }
+} 
 @media (max-width: 576px) {
     .my-margin-style {
         margin-top: 1rem;
@@ -44,5 +54,30 @@ body {
 @media (min-width: 568px) {
     .my-margin-style {
         margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    .home {
+        margin-left: 0.5rem;
+    }
+    .icons-social-media {
+        width: 100%;
+    }
+    .my-skills {
+        margin-left: auto;
+    }
+    .data {
+        padding: 1rem 0.5rem 1rem 0.5rem;
+    }
+    .contacts {
+        padding: 1rem 0.5rem 1rem 0.5rem;
+    }
+    .freelancer .freelancer-text p, h2 {
+        text-align: center !important;
+        font-size: 0.5rem;
+        margin-right: 1rem;
+    }
+    .freelancer .freelancer-text h2 {
+        font-size: 0.1rem;
     }
 }
